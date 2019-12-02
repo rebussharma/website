@@ -1,0 +1,36 @@
+body {
+    background-color:antiquewhite
+    
+}
+h1{
+    color:black;
+    text-align: center;
+    text-shadow: 2px 2px 5px black; /* Default shadow towards bottom right
+    for top left use: -px*/
+    
+}
+
+h3{
+    color:#ffffff; /* Color1-trick 1: white color */
+}
+h4{
+    color: rgb(0,204,255); /* Color1-trick 2: white color */
+}
+.container{
+    /* Color Gradient: Use more than 1 color */
+    background: linear-gradient(to right,#00ccff,#b3f0ff);
+        /*Linear-gradient(starting-color, ending-clor)*/
+        /*Linear-gradient(direction,starting-color, ending-clor)*/
+    box-shadow: 3px 5px 3px black; 
+    width: 200px;
+    height: 100px;
+    color: yellow;
+    margin: auto;
+}
+
+#circle{
+    color: chartreuse; /* Color1-trick 3: white 
+    font-size: 40px;
+    
+    
+}
